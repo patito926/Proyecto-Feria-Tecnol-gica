@@ -1,8 +1,130 @@
+.about-section {
+  background-color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+.about-section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin-bottom: 20px;
+}
+
+.about-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.about-text {
+  flex: 1;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #222;
+  max-width: 600px;
+}
+
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #CBB9A4;
+  text-align: center;
+}
+
+body { 
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #CBB9A4;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.persona {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.persona img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.persona div {
+  max-width: 600px;
+}
+
+h3 {
+  margin: 0;
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+.imagen1 {
+    width: 1600px;
+}
+
+
 /* Fuente limpia y estética */
 body {
     font-family: 'Segoe UI', sans-serif;
     margin: 0;
-    background-color: #fff9ea;
+    background-color: #fffaef;
     color: #767676;
   }
   

@@ -1,0 +1,96 @@
+/* Fuente limpia y estética */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #fdfaf5;
+    color: #767676;
+  }
+  
+  /* Encabezado con imagen y tono pastel */
+  header {
+    background-image: url('encabezado.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.3);
+  }
+  
+  header h1 {
+    font-size: 50px;
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  header p {
+    font-size: 20px;
+    margin-top: 10px;
+    opacity: 0.9;
+  }
+  
+  /* Secciones informativas con estilo suave */
+  .info-section {
+    padding: 50px 20px;
+    background-color: #fff;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    margin-bottom: 40px;
+  }
+  
+  .info-section h2 {
+    color: #b4a37e;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .info-section p,
+  .info-section ul {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Galería con enfoque visual armonioso */
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px 20px;
+    justify-content: center;
+    background-color: #f9fcfc;
+  }
+  
+  .gallery img {
+    width: 280px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 16px;
+    border: 2px solid #ffe9cb;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  }
+  
+  /* Pie de página minimalista */
+  footer {
+    background-color: #ebd8b5;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
